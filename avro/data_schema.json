@@ -1,0 +1,23 @@
+{
+    "namespace": "org.apache.avro.ipc",
+    "type": "record",
+    "name": "Usuario",
+    "fields": [
+        {
+            "name": "nome",
+            "type": "string"
+        },
+        {
+            "name": "nascimento",
+            "type": "string"
+        },
+        {
+            "name": "ativo",
+            "type": "boolean"
+        },
+        {
+            "name": "hash",
+            "type": "string"
+        }
+    ]
+}
