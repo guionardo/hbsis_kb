@@ -27,7 +27,10 @@ class Tests(unittest.TestCase):
 
     def testSerialize(self):
         AvroHelper.parseschema(self.dataschema)
-        self.assertIsNotNone(AvroHelper.serialize(self.dataobject))
+        print(self.dataobject)
+        ser = AvroHelper.serialize(self.dataobject)
+        print(ser)
+        self.assertIsNotNone(ser)
 
     def testDeserialize(self):
         AvroHelper.parseschema(self.dataschema)
