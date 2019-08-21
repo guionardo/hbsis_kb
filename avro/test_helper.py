@@ -1,4 +1,4 @@
-from avro_helper2 import AvroObject, avro_object_to_bin, avro_object_to_json, avro_bin_to_object, avro_json_to_object
+from avro_helper import AvroObject, avro_object_to_bin, avro_object_to_json, avro_bin_to_object, avro_json_to_object
 import unittest
 import json
 
